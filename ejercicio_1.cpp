@@ -1,9 +1,10 @@
 #include <iostream>
 #include <string>
+
 using namespace std;
 
-// Definir la estructura Dirección
-struct Direccion {
+
+struct Contact {
     string nombre;
     int edad;
     string direccion;
@@ -12,33 +13,32 @@ struct Direccion {
 };
 
 int main() {
-    // Crear una instancia de la estructura Dirección
-    Direccion dir;
+    // Declaración de una instancia de la estructura Contacto
+    Contact contacto;
 
-    // Pedir al usuario que introduzca los datos
-    cout << "Ingrese el nombre: ";
-    getline(cin, dir.nombre);
+    // Solicitando los datos del contacto al usuario
+    cout << "Ingrese nombre: ";
+    cin >> contacto.nombre;
 
-    cout << "Ingrese la edad: ";
-    cin >> dir.edad;
-    cin.ignore(); // Ignorar el salto de línea pendiente
+    cout << "Ingrese edad: ";
+    cin >> contacto.edad;
 
-    cout << "Ingrese la direccion: ";
-    getline(cin, dir.direccion);
+    cout << "Ingrese dirección: ";
+    cin >> contacto.direccion;
 
-    cout << "Ingrese la ciudad: ";
-    getline(cin, dir.ciudad);
+    cout << "Ingrese ciudad: ";
+    cin >> contacto.ciudad;
 
-    cout << "Ingrese el telefono: ";
-    getline(cin, dir.telefono);
+    cout << "Ingrese teléfono: ";
+    cin >> contacto.telefono;
 
-    // Mostrar los datos ingresados
-    cout << "\nDatos ingresados:\n";
-    cout << "Nombre: " << dir.nombre << "\n";
-    cout << "Edad: " << dir.edad << "\n";
-    cout << "Direccion: " << dir.direccion << "\n";
-    cout << "Ciudad: " << dir.ciudad << "\n";
-    cout << "Telefono: " << dir.telefono << "\n";
+    // Mostrando los datos del contacto ingresado
+    cout << "\nDatos del contacto:\n";
+    cout << "Nombre: " << contacto.nombre << endl;
+    cout << "Edad: " << contacto.edad << endl;
+    cout << "Dirección: " << contacto.direccion << endl;
+    cout << "Ciudad: " << contacto.ciudad << endl;
+    cout << "Teléfono: " << contacto.telefono << endl;
 
     return 0;
 }
