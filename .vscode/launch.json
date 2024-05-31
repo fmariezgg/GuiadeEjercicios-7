@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/marie/Desktop/Programacion/guiaejercicios#7",
-      "program": "/Users/marie/Desktop/Programacion/guiaejercicios#7/build/Debug/outDebug"
+      "cwd": "/Users/marie/Desktop/Programacion/guiaejercicios#7/exe1.cpp",
+      "program": "/Users/marie/Desktop/Programacion/guiaejercicios#7/exe1.cpp/build/Debug/outDebug"
     }
   ]
 }
