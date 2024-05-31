@@ -12,8 +12,3 @@ typedef struct {
 
 PERSON people[MAX_REG]; //people es tipo PERSON, y person es una estrctura
 int pos = 0;//posicion
-
-
-    
-
-
